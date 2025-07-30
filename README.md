@@ -30,3 +30,7 @@ pasamos datos a la vista usando model
 ## RestController
 
 decorador para gestionar solicitudes http, api rest 
+
+## RequestMapping
+
+decorador para definir una ruta base 
