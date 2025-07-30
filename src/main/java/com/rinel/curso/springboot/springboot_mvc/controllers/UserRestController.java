@@ -3,15 +3,19 @@ package com.rinel.curso.springboot.springboot_mvc.controllers;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
-@RestController
+@Controller
+@RequestMapping("/usuario")
 public class UserRestController {
 
     // parametros en la vista
     @GetMapping("/details2")
+    @ResponseBody
     public Map<String,Object> detailString(Model model) {
         Map<String,Object> body = new HashMap<>();
         body.put("title", "Hola mundo spring  boot");
