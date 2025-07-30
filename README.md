@@ -20,3 +20,7 @@ public class UserController {
 **@DeleteMapping**	Eliminar recursos
 **@PatchMapping**	Actualización parcial
 **(Todos) @RequestMapping**	Uso más genérico
+
+### Model
+
+pasamos datos a la vista usando model 
