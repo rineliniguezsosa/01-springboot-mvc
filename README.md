@@ -34,3 +34,7 @@ decorador para gestionar solicitudes http, api rest
 ## RequestMapping
 
 decorador para definir una ruta base 
+
+## ResponseBody
+
+Decorador para retorno JSON de un método.
