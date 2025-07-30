@@ -12,11 +12,11 @@ public class UserRestController {
 
     // parametros en la vista
     @GetMapping("/details2")
-    public String detailString(Model model) {
+    public Map<String,Object> detailString(Model model) {
         Map<String,Object> body = new HashMap<>();
         body.put("title", "Hola mundo spring  boot");
         body.put("name", "Rinel");
-        return "Detalles";
+        return body;
     }
     
 }
