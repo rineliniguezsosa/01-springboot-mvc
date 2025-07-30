@@ -1,5 +1,8 @@
 package com.rinel.curso.springboot.springboot_mvc.controllers;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -8,10 +11,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserRestController {
 
     // parametros en la vista
-    @GetMapping("/details")
+    @GetMapping("/details2")
     public String detailString(Model model) {
-        model.addAttribute("title", "Hola mundo spring  boot");
-        model.addAttribute("name", "Rinel");
+        Map<String,Object> body = new HashMap<>();
+        body.put("title", "Hola mundo spring  boot");
+        body.put("name", "Rinel");
         return "Detalles";
     }
     
