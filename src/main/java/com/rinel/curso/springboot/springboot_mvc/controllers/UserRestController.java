@@ -1,11 +1,11 @@
 package com.rinel.curso.springboot.springboot_mvc.controllers;
 
-import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 
-@Controller
-public class RestController {
+@RestController
+public class UserRestController {
 
     // parametros en la vista
     @GetMapping("/details")
