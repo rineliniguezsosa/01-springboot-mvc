@@ -4,6 +4,8 @@
 
 ### @Controller
 
+Decorador que se usa para controladores tradicionales que devuelven vistas (HTML).
+
 ```java
 @Controller
 public class UserController {
@@ -24,3 +26,7 @@ public class UserController {
 ### Model
 
 pasamos datos a la vista usando model 
+
+## RestController
+
+decorador para gestionar solicitudes http, api rest 
