@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.rinel.curso.springboot.springboot_mvc.model.User;
+
 @RestController
 @RequestMapping("/usuario")
 public class UserRestController {
@@ -17,9 +19,10 @@ public class UserRestController {
     @GetMapping("/details2")
     @ResponseBody
     public Map<String,Object> detailString(Model model) {
+        User user = new User("rinel","iñiguez");
         Map<String,Object> body = new HashMap<>();
         body.put("title", "Hola mundo spring  boot");
-        body.put("name", "Rinel");
+        body.put("user", user);
         return body;
     }
     
