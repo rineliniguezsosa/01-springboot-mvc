@@ -1,6 +1,9 @@
 package com.rinel.curso.springboot.springboot_mvc.controllers;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import org.springframework.ui.Model;
@@ -38,6 +41,20 @@ public class UserRestController {
         body.put("title", "Hola mundo spring  boot");
         body.put("user", user);
         return body;
+    }
+
+    @GetMapping("/list")
+    @ResponseBody 
+    public List<User> list(){
+        User user = new User("rinel", "iñiguez");
+        User user2 = new User("rolando", "iñiguez");
+
+        List<User> users = new ArrayList<>();
+
+        users.add(user);
+        users.add(user2);
+
+        return users;
     }
     
 }
