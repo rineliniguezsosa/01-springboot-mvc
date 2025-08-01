@@ -24,7 +24,7 @@ public class UserRestController {
     public UserDTO detailString(Model model) {
         UserDTO userdto = new UserDTO();
 
-        User user = new User("rinel","iñiguez");
+        User user = new User("rinel","iñiguez","rineliniguezsosa@gmail.com");
 
         userdto.setUser(user);
         userdto.setTitle("Hola mundo spring boot");
@@ -35,7 +35,7 @@ public class UserRestController {
     @GetMapping("/details2-map")
     @ResponseBody
     public Map<String,Object> detailMap(Model model) {
-        User user = new User("rinel","iñiguez");
+        User user = new User("rinel","iñiguez","rineliniguezsosa@gmail.com");
         Map<String,Object> body = new HashMap<>();
         body.put("title", "Hola mundo spring  boot");
         body.put("user", user);
@@ -45,8 +45,8 @@ public class UserRestController {
     @GetMapping("/list")
     @ResponseBody 
     public List<User> list(){
-        User user = new User("rinel", "iñiguez");
-        User user2 = new User("rolando", "iñiguez");
+        User user = new User("rinel", "iñiguez","rineliniguezsosa@gmail.com");
+        User user2 = new User("rolando", "iñiguez","rolandoiniguezsosa@gmail.com");
 
         List<User> users = new ArrayList<>();
 
