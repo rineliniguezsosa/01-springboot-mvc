@@ -23,7 +23,7 @@ public class UserController {
 **@PatchMapping**	Actualización parcial
 **(Todos) @RequestMapping**	Uso más genérico
 
-### Model
+### Model y ModelMap
 
 pasamos datos a la vista usando model 
 
