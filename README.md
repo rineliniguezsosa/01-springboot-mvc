@@ -42,3 +42,7 @@ Decorador para retorno JSON de un método.
 ## @ModelAttribute("") 
 
 Decorador en Spring Boot (y en Spring MVC en general) se usa para pasar datos entre el controlador y la vista o para vincular automáticamente datos del formulario a un objeto del modelo.
+
+## RequestParam()
+
+Decorador que se usa para obtener parámetros de la URL
