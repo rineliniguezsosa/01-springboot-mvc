@@ -11,10 +11,5 @@ public class Paramdto {
     public void setMessage(String message) {
         this.message = message;
     }
-
-    public Paramdto(String message) {
-        this.message = message;
-    }
-    
     
 }
