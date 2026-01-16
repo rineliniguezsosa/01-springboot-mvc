@@ -53,3 +53,6 @@ Decorador que se usa para obtener parámetros de la URL
 - GET api/params/foo?message=Hola como estas
 - GET api/params/bar?txt=hola&code=200
 - GET api/params/request?txt=hola&code=500
+
+##### PARAMS URL
+- GET /api/path/var/hola%20mundo
