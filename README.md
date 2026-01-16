@@ -46,3 +46,5 @@ Decorador en Spring Boot (y en Spring MVC en general) se usa para pasar datos en
 ## RequestParam() ó HttpServletRequest
 
 Decorador que se usa para obtener parámetros de la URL
+
+## Endpoints
