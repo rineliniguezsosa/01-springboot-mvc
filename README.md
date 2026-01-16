@@ -49,4 +49,6 @@ Decorador que se usa para obtener parámetros de la URL
 
 ## Endpoints
 
+##### PARAMS
 - GET api/params/foo?message=Hola como estas
+- GET api/params/bar?txt=hola&code=200
