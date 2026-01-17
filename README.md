@@ -47,6 +47,10 @@ Decorador en Spring Boot (y en Spring MVC en general) se usa para pasar datos en
 
 Decorador que se usa para obtener parámetros de la URL
 
+# RequestBody
+
+Recibe JSON del body.
+
 ## Endpoints
 
 ##### PARAMS
