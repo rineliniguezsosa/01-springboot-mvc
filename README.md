@@ -51,6 +51,10 @@ Decorador que se usa para obtener parámetros de la URL
 
 Recibe JSON del body.
 
+# @Value
+
+Lee valores del application.properties.
+
 ## Endpoints
 
 ##### PARAMS
