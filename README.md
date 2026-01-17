@@ -56,3 +56,4 @@ Decorador que se usa para obtener parámetros de la URL
 
 ##### PARAMS URL
 - GET /api/path/var/hola%20mundo
+- GET /api/path/multiple/camisa/1
