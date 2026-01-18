@@ -65,6 +65,7 @@ Inyecta una dependencia automáticamente.
 
 ##### Usuario
 - GET /usuario/details
+- GET /usuario/details2-map
 
 ##### PARAMS
 - GET api/params/foo?message=Hola como estas
