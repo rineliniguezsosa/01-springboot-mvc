@@ -63,6 +63,9 @@ Inyecta una dependencia automáticamente.
 
 ## Endpoints
 
+##### Usuario
+- GET /usuario/details
+
 ##### PARAMS
 - GET api/params/foo?message=Hola como estas
 - GET api/params/bar?txt=hola&code=200
