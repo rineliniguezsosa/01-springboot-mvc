@@ -58,6 +58,9 @@ Lee valores del application.properties.
 # @PropertySource 
 es una anotación de configuración que se usa para cargar archivos .properties personalizados y poder leer sus valores con @Value o Environment.
 
+# Autowired
+Inyecta una dependencia automáticamente.
+
 ## Endpoints
 
 ##### PARAMS
