@@ -61,6 +61,30 @@ es una anotación de configuración que se usa para cargar archivos .properties 
 # Autowired
 Inyecta una dependencia automáticamente.
 
+## Requisitos previos
+
+Antes de ejecutar el proyecto, asegúrate de tener instalado:
+
+**Java JDK 17**
+
+```bash
+  java -version
+```
+
+## Clonar el repositorio
+
+```bash
+git clone https://github.com/rineliniguezsosa/01-springboot-mvc.git
+
+cd springboot-mvc
+```
+
+## Ejecutar el proyecto
+
+```bash
+./mvnw spring-boot:run
+```
+
 ## Endpoints
 
 ##### Usuario
